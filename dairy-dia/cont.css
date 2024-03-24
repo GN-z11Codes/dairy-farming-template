@@ -1,0 +1,107 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #87CEEB, #98FB98);
+    color: #333; 
+    line-height: 2.3;
+    margin: 0;
+}
+
+header {
+    background-color: #00796b; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #89CFF0;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background: #89CFF0;
+    color: #333;
+    
+}
+
+.signup-login-btn {
+    background-color: #4caf50; 
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.signup-login-btn:hover {
+    background-color: #45a049;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #004d40; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto; 
+}
+
+.signup-login-btn {
+    margin-left: 20px; 
+}
